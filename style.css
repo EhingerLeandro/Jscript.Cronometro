@@ -1,0 +1,29 @@
+h1{
+    text-align:center;
+}
+
+.container{
+    display: flex;
+    flex-flow:column;
+    justify-content:center;
+    align-items: center;
+}
+
+.circulo{
+    justify-content:center;
+    align-items: center;
+    border: 3px solid #000;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    display: flex;
+}
+
+#numbers{
+    margin: auto;
+    font-size: 35px;
+}
+
+.boton{
+    margin:2px;
+}
