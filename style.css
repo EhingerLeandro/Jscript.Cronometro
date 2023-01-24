@@ -1,8 +1,25 @@
+body{
+    height: 100vh;
+    background: linear-gradient( #369,#396);
+    margin: 0px;
+    padding: 0px;
+    font-family:sans-serif;
+
+}
+
+header{
+    font-size:20px;
+    padding:1px;
+    background-color: #113;
+}
+
 h1{
     text-align:center;
+    color:#ccc;
 }
 
 .container{
+    margin-top:50px;
     display: flex;
     flex-flow:column;
     justify-content:center;
@@ -10,20 +27,37 @@ h1{
 }
 
 .circulo{
+    background-color: #6a6;
+    box-shadow: 0px 0px 20px 0px;
     justify-content:center;
     align-items: center;
-    border: 3px solid #000;
+    border: 8px solid #393;
     border-radius: 50%;
     width: 200px;
     height: 200px;
     display: flex;
 }
 
-#numbers{
+#crono_output{
     margin: auto;
     font-size: 35px;
 }
 
 .boton{
-    margin:2px;
+    margin-top:25px;
 }
+
+button{
+    font-weight: bold;
+    font-size:15px;
+    margin-top: 10px;
+    background-color:#aaa;
+    border-radius: 10px;
+    padding:8px;
+    transition: background-color 0.1s linear 1ms ;
+}
+
+button:active{
+    background-color: #666;
+}
+
